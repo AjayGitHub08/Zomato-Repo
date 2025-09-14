@@ -1,5 +1,5 @@
 # Use Node.js 16 slim as the base image
-FROM node:16-alpine:stable As stageone
+FROM node:16-alpine As stageone
 
 # Set the working directory
 WORKDIR /app
